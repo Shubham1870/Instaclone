@@ -2,7 +2,7 @@ import { redirect, useNavigate} from "react-router-dom"
 import "./postcard.css"
 
 const Postcard=()=>{
-const url="http://localhost:8080"
+const url="https://instaclone5.onrender.com"
 const navigate=useNavigate()
    
     return (
