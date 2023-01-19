@@ -1,0 +1,41 @@
+.card-container1{
+    width: 100%;
+    display: block;
+    background-color: white;
+    padding: 2%;
+    margin: 10px auto;
+    max-width: 450px;
+    border: 2px solid black;
+    
+}
+.value-inputs{
+
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.file-name{
+    font-size: medium;
+margin: 1.5%;
+}
+.name{
+font-size: medium;
+margin: 1.5%;
+}
+.description{
+    font-size: medium;
+    margin: 1.5%;
+    font-weight: normal;
+}
+.location{
+    font-size: medium;
+    margin: 1.5%;
+}
+.upload-post{
+    font-size: medium;
+    margin: 1.5%;
+    width: min-content;
+    align-self: center;
+}
