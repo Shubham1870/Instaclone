@@ -5,7 +5,7 @@ const Userdatas=require("./Models/model")
 const multer=require("multer")
 const cors=require("cors")
 const port=process.env.port||8080
-mongoose.connect("mongodb://localhost/UserData",
+mongoose.connect('mongodb+srv://ROOT:10xacademy@cluster0.qncoifz.mongodb.net/?retryWrites=true&w=majority',
 (err)=>{
     if(err){
         console.log(err)
