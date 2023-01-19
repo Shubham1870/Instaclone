@@ -6,7 +6,7 @@ const Landing = () => {
         <>
             <div className="landing-container">
                 <div className="image-container">
-                 <img src={require("../../images/landing.webp")} alt="landing" />
+                 <img src={require("../../Images/landing.jpg")} alt="landing" />
                  </div>
                 <div className="context">
                  <div className="name">10X TEAM 04</div>
