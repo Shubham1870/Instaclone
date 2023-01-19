@@ -3,7 +3,7 @@ import Header from "../Header/header"
 
 import "./postview.css"
 
-const url="http://localhost:8080"
+const url="https://instaclone5.onrender.com"
 const Postview = () => {
   const [Posts, setPosts] = useState([]);
   const getUserData = async () => {
