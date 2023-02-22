@@ -5,12 +5,12 @@ const Header=()=>{
         <>
         <div>
        <section className="header">
-        <section className="image" id="image1">
+        <section id="image1">
             <img src={require("../../Images/images.png")} alt="clone"/>
         </section>
-        <section >
+        <section id="image-2">
         <Link to={"/Postcard"}>
-        <div className="image" id="image2">
+        <div id="image-22" >
             <img src={require("../../Images/camera.jpg")} alt="camera"/>
             </div>
             </Link>

@@ -1,16 +1,48 @@
 .header{
-    display: flex;
-    align-items: center;
-    border: 2px solid black;
-    padding: 0.4%;
+  display: flex;
+  width: 95vw;
+  align-items: center;
+  background-color:white;
+  border: 2px solid purple;
 }
-.image{
-    flex-direction: column
+
+#image1{
+width: 50%;
+}
+#image-2{
+width: 50%;
 }
 #image1 img{
-  width: 18%;
+width: 22%; 
 }
-#image2 img{
-    width: 25%;
-   margin-left:70%;
+#image-22 img{
+width: 12%;
+float: right;
+}
+
+@media screen and (max-width: 560px) {
+  :root{
+    align-item: center;
+   
   }
+.header{
+flex-direction: column;
+width: 92vw;
+}
+#image1{
+  width:65%;
+  margin-top: 1em;
+  margin-left: 10em;
+  }
+  #image-2{
+  width: 65%;
+  margin-left: 14em;
+  }
+  #image1 img{
+  width: 50%; 
+  }
+  #image-22 img{
+  width: 30%;
+  float: none;
+  }
+}

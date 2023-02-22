@@ -1,3 +1,6 @@
+body{
+    background-color: #D5D6EA;
+}
 .card-container{
     border: 1px solid lightgrey;
     border-radius: 5px;
@@ -5,6 +8,8 @@
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: white;
+    
 }
 .card-image img{
 object-fit: cover;

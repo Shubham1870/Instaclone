@@ -6,10 +6,10 @@ const Landing = () => {
         <>
             <div className="landing-container">
                 <div className="image-container">
-                 <img src={require("../../Images/landing.jpg")} alt="landing" />
+                 <img src={require("../../Images/landing1.jpg")} alt="landing" />
                  </div>
                 <div className="context">
-                 <div className="name">10X TEAM 04</div>
+                 <div id="name">10X TEAM 04</div>
                  <Link to={"/postview"}>
              <div className="button">
              <button>Enter</button>
